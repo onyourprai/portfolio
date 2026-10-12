@@ -27,7 +27,7 @@ function Hero() {
         <br />
         <br />
         <h5 className="year">
-          Thanyalak Namso | ธัญลักษณ์ นามโส | Electronic Engineering Technology, KMUTNB
+          Thanyalak Namso | Electronic Engineering Technology, KMUTNB
         </h5>
         <br />
         <div className="hero-buttons">

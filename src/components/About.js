@@ -16,13 +16,6 @@ function About() {
           <br />
           I'm looking for a co-op opportunity to build on my foundational coding skills, learn from
           experienced professionals, and gain practical hands-on experience.
-          <br />
-          <br />
-          <span className="about-th">
-            สวัสดีค่ะ ชื่อธัญลักษณ์ นามโส ค่ะ ปัจจุบันกำลังศึกษาชั้นปีที่ 4
-            สาขาวิชาเทคโนโลยีวิศวกรรมอิเล็กทรอนิกส์ แขนงคอมพิวเตอร์ ที่ มจพ.
-            สนใจการเขียนโปรแกรมและการจัดการระบบ และกำลังมองหาโอกาสสหกิจศึกษาค่ะ
-          </span>
         </p>
       </div>
     </section>
