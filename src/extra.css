@@ -1,0 +1,11 @@
+/* Extra styles on top of the template */
+
+.project-stack {
+    font-size: 0.85rem;
+    opacity: 0.7;
+    margin-top: 10px;
+}
+
+.about-th {
+    opacity: 0.85;
+}
