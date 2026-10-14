@@ -1,5 +1,4 @@
 import React from 'react'
-import kuromi from '../assets/kuromi.png'
 
 const profiles = [
   {
@@ -24,15 +23,6 @@ function Profiles() {
       <h2 className="section-title">
         Web Presence - <span className="purple-text">Find Me Here!</span>
       </h2>
-      <div className="profile-header">
-        <div className="profile-img-main">
-          <img src={kuromi} alt="Thanyalak Namso" />
-        </div>
-        <div className="profile-text">
-          <p className="purple-text">@onyourprai</p>
-        </div>
-      </div>
-
       <div className="profiles-grid">
         {profiles.map((p) => (
           <a key={p.name} href={p.href} target="_blank" rel="noreferrer" className="profile-card">
@@ -46,8 +36,6 @@ function Profiles() {
           </a>
         ))}
       </div>
-      <br />
-      <p className="profile-note">LinkedIn coming soon.</p>
     </section>
   )
 }

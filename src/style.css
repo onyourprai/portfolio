@@ -375,6 +375,7 @@ body {
     min-height: 70vh;
 
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     padding: 80px 20px;
@@ -2547,7 +2548,9 @@ body {
 }
 
 .preloader-brand-name {
-    color: #fff;
+    font-family: 'VALORANT', sans-serif;
+    color: var(--accent-purple);
+    font-weight: 400;
 }
 
 .preloader-brand-accent {

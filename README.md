@@ -8,4 +8,4 @@ npm start
 npm run build
 ```
 
-Contact form: `api/submit.js` (Vercel function) needs `RESEND_API_KEY` and `RECEIVER_EMAIL`.
+Contact form: sent via [FormSubmit](https://formsubmit.co) to pray41811@gmail.com (`public/script.js`). The first submission sends an activation email that must be confirmed once.

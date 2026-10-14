@@ -208,9 +208,13 @@
             const formData = new FormData(contactForm);
             const object = Object.fromEntries(formData);
 
+            object._subject = 'New Portfolio Message from ' + object.name;
+            object._template = 'table';
+            object._captcha = 'false';
+
             const json = JSON.stringify(object);
 
-            fetch('/api/submit', {
+            fetch('https://formsubmit.co/ajax/pray41811@gmail.com', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
@@ -219,8 +223,8 @@
                 body: json
             })
                 .then(async (response) => {
-                    let json = await response.json();
-                    if (response.status == 200) {
+                    const json = await response.json().catch(() => ({}));
+                    if (response.ok && String(json.success) === 'true') {
 
                         btn.innerHTML = '<span>Message Delivered!</span> <i class="fa-solid fa-check"></i>';
                         btn.style.background = 'linear-gradient(90deg, #22c55e, #16a34a, #22c55e)';

@@ -1,8 +1,14 @@
 import React from 'react'
+import profile from '../assets/profile.png'
 
 function About() {
   return (
     <section className="about-section" id="about">
+      <div className="profile-header">
+        <div className="profile-img-main">
+          <img src={profile} alt="Thanyalak Namso" />
+        </div>
+      </div>
       <div className="glass-card scroll-reveal">
         <h2>
           About Me - <span className="purple-text">Behind The Code!</span>
