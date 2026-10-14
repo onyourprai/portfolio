@@ -11,7 +11,7 @@ function About() {
       </div>
       <div className="glass-card scroll-reveal">
         <h2>
-          About Me - <span className="purple-text">Behind The Code!</span>
+          About Me - <span className="purple-text">Get To Know Me!</span>
         </h2>
         <p>
           Hi, I'm Thanyalak Namso, a dedicated 4th-year Electronic Engineering Technology (Computer)
