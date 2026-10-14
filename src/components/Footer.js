@@ -7,7 +7,7 @@ function Footer() {
       <div className="footer-container">
         <div className="footer-brand">
           <h2 className="footer-logo">
-            Thanyalak<span className="purple-text">Namso</span>
+            Thanyalak<span className="footer-logo-accent">Namso</span>
           </h2>
           <p className="footer-tagline">Where electronics meets code.</p>
         </div>

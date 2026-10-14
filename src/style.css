@@ -1745,15 +1745,17 @@ body {
 }
 
 .footer-logo {
+    font-family: 'VALORANT', sans-serif;
     font-size: 1.8rem;
-    font-weight: 800;
+    font-weight: 400;
     margin-bottom: 10px;
-    letter-spacing: -0.5px;
-    background: linear-gradient(to right, #fff, var(--accent-purple));
-    -webkit-background-clip: text;
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
+    letter-spacing: 3px;
+    color: var(--accent-purple);
     display: inline-block;
+}
+
+.footer-logo-accent {
+    margin-left: 0.4em;
 }
 
 .footer-tagline {
@@ -2557,7 +2559,7 @@ body {
     font-family: 'VALORANT', sans-serif;
     color: var(--accent-purple);
     font-weight: 400;
-    margin-left: 5px;
+    margin-left: 0.4em;
 }
 
 .preloader-brand-subtitle {

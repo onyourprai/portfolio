@@ -33,10 +33,12 @@ function Projects() {
             <h3>{p.title}</h3>
             <p>{p.description}</p>
             <p className="project-stack">{p.stack}</p>
-            <div className="project-links-wrapper">
-              <ProjectButton href={p.live} icon="fa-regular fa-eye" label="View Live" />
-              <ProjectButton href={p.github} icon="fa-brands fa-github" label="GitHub" />
-            </div>
+            {(p.live || p.github) && (
+              <div className="project-links-wrapper">
+                <ProjectButton href={p.live} icon="fa-regular fa-eye" label="View Live" />
+                <ProjectButton href={p.github} icon="fa-brands fa-github" label="GitHub" />
+              </div>
+            )}
           </div>
         ))}
       </div>
